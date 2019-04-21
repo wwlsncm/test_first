@@ -11,3 +11,4 @@ class TestDisplay:
         self.display_page.click_search()
         self.display_page.input_text("hello")
         self.display_page.click_back()
+        assert 0
